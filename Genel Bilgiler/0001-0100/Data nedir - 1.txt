@@ -1,0 +1,79 @@
+"Data is a collection of facts such as 
+numbers, words, measurements, observations 
+or just descriptions of things."
+
+Tercümesi:
+Data (veri), sayılar, kelimeler, ölçümler, gözlemler
+veya açıklamalar gibi "fact"ler koleksiyonudur.
+
+
+
+İyi ama "fact" nedir? 
+Burada geçen "fact" kelimesi, 
+kelimenin İngilizce temel anlamı ile değildir, 
+kelimenin İngilizce bilgisayar terimi anlamı iledir.
+Peki o hâlde "fact" nedir?
+
+Wiktionary'de geçen tanıma göre "fact":
+"An individual value or measurement at the lowest level of 
+granularity in a data warehouse."
+https://en.wiktionary.org/wiki/fact#Noun    (6. tanıma git)
+
+Tercümesi:
+Fact, bir veri ambarında, en küçük yapıtaşı seviyesindeki
+bireysel bir değer veya ölçümdür.
+
+
+
+"Yazacağımız her kod, yapacağımız her program,
+datayı almak, datayı işlemek, 
+ve sonuç olarak bir data oluşturmak için kullanılır"
+
+"Datanın içerdiği bilgi çok farklı olabileceğinden,
+tüm programlama dilleri, farklı data türlerini 
+kullanabilmek için kendi kullanacakları data türlerini
+tanımlamışlardır."
+
+
+
+Her data bilgisayarın hafızasında (memory) yer kaplar.
+Bir datanın hafızada saklanacağı en küçük bölüm "bit"tir.
+Peki bit nedir?
+"Bit" kelimesi, "binary digit" ibaresinden türetilmiş bir 
+kelimedir. "Binary digit"in Türkçesi "ikili sayı"dır.
+Bu iki sayı 0 ve 1 sayılarıdır. Ancak bilgisayarın 
+anladığı 0 ve 1, bizim anladığımız 0 ve 1 değildir.
+
+Bir bit, bilgisayara gönderilen bir elektrik voltudur. Bu voltun
+şiddeti çok düşük olduğunda, bilgisayar bunu 0 olarak anlar,
+nisbeten yüksek olduğunda bilgisayar bunu 1 olarak anlar.
+https://en.wikipedia.org/wiki/Bit#Physical_representation
+https://bit-calculator.com/what-is-a-bit
+
+
+Sekiz bit bir araya geldiğinde, bir byte oluşturur. Her byte,
+256 farklı değer alabilir (2 üssü 8). Peki byte nedir?
+"Byte, bir bilgi birimidir" diyebiliriz. Nasıl 1 kg, 1000 gramdan 
+oluşan bir ağırlık birimi ise, byte da sekiz bitten oluşan 
+bir bilgi birimidir.
+
+
+
+Dijital hafıza, 2 üssü 10 = 1024 sayısının katları şeklinde
+yapılandırılmıştır.
+
+1024 byte = 1 KB
+2014 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1 TB
+...diye devam ediyor
+
+
+
+
+
+
+
+
+
+

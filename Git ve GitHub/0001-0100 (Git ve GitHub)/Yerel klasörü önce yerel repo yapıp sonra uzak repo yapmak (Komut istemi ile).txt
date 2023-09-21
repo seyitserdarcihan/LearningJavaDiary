@@ -1,0 +1,69 @@
+Burada geçen talimatlar şunları varsaymaktadır: 
+- Git yazılımı bilgisayarınızda yüklü. Eğer yüklü değilse şuradan yükleyin:
+                   https://git-scm.com/
+- Bilgisayarınızda bir klasör var ve Git ile hiçbir ilişikliği yok
+- GitHub CLI bilgisayarınızda yüklü. Eğer yüklü değilse şuradan indirip yükleyin:
+                   https://cli.github.com/
+- GitHub sitesinde bir hesabınız var. Örneğin:
+                   https://github.com/seyitserdarcihan
+
+
+
+
+
+
+1) Klasörü açın
+
+
+2) Yukarıdaki adres çubuğuna cmd yazıp Enter'a basın
+
+
+3) Açılan komut istemi penceresinde şunu komutu yazıp Enter'a basın:
+git init
+Artık bu klasör Git ile ilişik hâle getirilmiş oldu.
+
+
+4) Şimdi sıra, klasörü bir yerel (lokal) repo hâline getirmeye geldi.
+Komut istemi penceresi yine aynı klasör yolunda açılmış olarak,
+alttaki komutu yazın ve Enter'a basın:
+git add .
+Noktayı ihmal etmeyin. Şimdi lokal repo oluşturulmuş oldu.
+
+
+5) Sırada, lokal projenin en son versiyonunu Git'teki 
+lokal repoya işlemek var. Bunun için komut isteminde 
+şu komutu girin ve Enter'a basın:
+git commit -m "commit message"
+Üstte 'commit message' yazan yere yazmak istediğiniz bir kısa açıklama
+yazın. Örneğin:
+git commit -m "bu projede ilk komit"
+
+
+6) Şimdi aşağıdaki komutu yazın ve Enter'a basın:
+gh repo create my-new-repo
+Üstte, my-new-repo yazan yere reponuz için istediğiniz ismi yazın.
+
+
+7) Şimdi aşağıdaki komutu kullanarak lokal repoyu uzak repo ile bağlayın:
+git remote add <name> <url>
+Örneğin:
+git remote add LearningJavaDiary https://github.com/seyitserdarcihan/LearningJavaDiary.git
+
+
+8) Şimdi yerel repo (local repository) ve uzak repo (remote repository) 
+birbirleri ile bağlanmış durumda. Geriye son bir adım kaldı.
+
+
+9) Bilgisayardaki projeyi, GitHub'da oluşturulmuş uzak repoya yüklemek için:
+git push --set-upstream LearningJavaDiary master
+Üstteki LearningJavaDiary projenin adı ve bu değişken bir isim.
+Diğer öğeler sabit komut.
+
+
+
+
+
+
+
+
+

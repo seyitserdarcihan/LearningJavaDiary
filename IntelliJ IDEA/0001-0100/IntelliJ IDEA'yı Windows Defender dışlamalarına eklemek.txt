@@ -1,0 +1,25 @@
+IntelliJ IDEA programını her projede değil de tamamen Windows Defender 
+dışlamalarına eklemek için yapılması gerekenler:
+
+► Görev Çubuğu'ndaki arama simgesine tıkla.
+
+► "Windows Güvenliği ayarları" yaz ve oraya git.
+
+► "Koruma alanları" başlığı altında "Virüs ve tehdit koruması" bölümüne git.
+
+► "Virüs ve tehdit koruması ayarları" başlığı altında "Ayarları yönet"e git.
+
+► "Dışlamalar" başlığı altında "Dışarıda bırakılanları ekle veya kaldır"a git.
+
+► Açılan "Dışlamalar" bölümünde "+Bir dışlama ekle" kutusuna tıkla.
+
+► "Klasör"e tıkla ve daha önceden kopyalamış olduğun şu klasör yollarını yapıştır: 
+      C:\Users\sserd\AppData\Local\JetBrains\IdeaIC2023.2
+	  C:\Program Files\JetBrains
+      D:\Bookmarks\Programming\Projects
+       
+
+
+
+
+ 

@@ -1,0 +1,8 @@
+Eğer repodaki her şey, lokal klon ile aynı durumda ise ve 
+"Bakalım ne olacak?" diye 
+git pull
+komutunu çalıştırırsan, alacağın cevap şu:
+Already up to date
+
+
+ 

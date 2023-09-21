@@ -1,0 +1,52 @@
+Bir class üç temel bölümden oluşur.
+
+- Class Declaration
+- Curly Braces (Süslü Parantez)
+- Class Body (Süslü parantezler arasında kalan
+ve kodların yazıldığı bölüm)
+
+
+Örnek:
+
+
+public class C2_MethodCreation2 {
+
+} 
+
+
+Yukarıda class declaration şudur:
+public class C2_MethodCreation2
+
+Yukarıda class body şudur:
+İki süslü parantez arasında kalan bölüm. 
+Oraya kod yazılır.
+
+
+► Java dilinde, bir class üretmeden bir obje üretilemez. 
+Bu yüzden önce class üretilir.
+
+► Bir class, şu dört türden birisi olarak yapılır:
+          - default
+		  - private
+		  - protected
+		  - public
+		  
+► Class deklarasyonunda geçen "class" kelimesi,
+hiç değişmez, Java'nın bir class'ın class olduğunu anlaması
+için kullanılan kelimedir.
+
+► C2_MethodCreation2 kelimesi ise, bu spesifik classın ismidir.
+Programı yazan kişi bir classa ne isim vermek istiyorsa o ismi verebilir,
+tabi ki bunun da sınırlaması var ama şu anda bilmiyorum.
+
+► Class'ın tabiri caizse meyvesinin içi olan kısım, "class body"dir.
+İki süslü parantez (curly braces) arasında kalan bölümdür. 
+Süslü parantezler "class body"nin parçası değildir, dışındadır
+ve "class body"nin zarıdır denebilir. Tabi ki bu meyve benzetmesi
+mükemmel değil. Şundan dolayı, bir meyvenin kabuklarını, zarlarını 
+çıkarıp atsanız geriye meyvenin içi kalır. Ancak, Java dilinde,
+eğer class declaration ve süslü parantezler olmazsa, geriye
+class kalmaz. O içerdeki kod, işe yaramaz.
+
+
+

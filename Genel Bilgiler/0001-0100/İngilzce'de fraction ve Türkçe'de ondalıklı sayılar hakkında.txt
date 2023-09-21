@@ -1,0 +1,35 @@
+İngilizce'de "integer" kelimesi "tamsayı" demektir.
+Java'daki data türleri ile ilgili olarak bu konunun bilinmesi gerekiyor.
+Java'da int diye belirtilen bir data türü (data type) var. Bu data türünde
+bir değişkene değer verilirken hiçbir zaman kesir (fraction) kullanılmaz.
+
+Örneğin int değerinin 3.5 olmaması gerekir.
+
+Şimdi bu metin belgesinin niye oluşturulduğu kısmına gelelim:
+İngilizce'de üstteki 3 ve 5 arasındaki nokta kesir belirtmek için kullanılır,
+Türkçe'de ise aynı şeyi ifade etmek için 3,5 yazılır.
+Türkçe matematikte, 3.5 kesir değildir. 
+İngilizce'de ise 3,5 yazdığınızda bu bir kesir değildir. İşin aslında Türkçe'de 
+nokta sadece sağdan sola üçer üçer basamak ayırmak için kullanılır.
+İngilizce'de de virgül, sadece sağdan sola üçer üçer basamakları ayırmak için
+kullanılır.
+
+Belki gelecekte Türkçe'de bu konuda bir değişiklik uygulamaya konulur.
+Ama şu anda durum bu, birbirinin tam zıddı.
+Bu yüzden, İngilizce'de kesir (fraction) türündeki bir sayıyı yazarken
+sayının tamsayı kısmı ile kesir kısmı arasında nokta kullanılır.
+
+Noktanın bazı matematik dillerinde çarpma işlemi için kullanılışını Java'da unut.
+
+
+
+
+
+
+
+
+
+
+
+
+

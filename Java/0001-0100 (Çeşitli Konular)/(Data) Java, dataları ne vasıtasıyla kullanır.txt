@@ -1,0 +1,34 @@
+Java, dijital hafızadaki dataları, şu iki araç vasıtasıyla kullanır:
+variable          object
+
+
+Java'da objeler oluşturulur. Bu objelerin her birisine bir isim verilir.
+Java artık o objeleri, o isimlerle tanıyacaktır. Java'da "kanatkara"
+adında bir obje oluşturduğunu varsayalım. Daha sonra Java'ya 
+"kanatkara" objesini getir dediğinde, Java onu tanır ve getirir.
+
+Java'da variable (değişken) değeri değişebilir, eğer Java'da 
+bir değişkenin en son verilmiş değeri ne ise, Java'ya o değişkeni 
+getirmesini istediğinde, en verilmiş olan değeri getirecektir.
+
+Bir datayı dijital hafızada depolamak istediğimizde, Java o data 
+için hafızada bir yer ayırır ve o alanı isimlendirir. Örnek:
+myInt adında bir değişken oluşturulmuş olsun. Bu myInt değişkenine
+bir değer verdik, bu değer 6 olsun. 
+
+Java, dijital hafızada o değişken için bir yer ayırır 
+ve onun adını myInt koyar. myInt olarak isimlendirdiği hafıza
+alanına 6 değerini depolar. Şimdi Java'dan myInt değişkenini getirmesini
+istediğinde, Java 6'yı getirir. Adı üstünde bu bir değişken (variable),
+dolayısıyla değişken değiştirildiğinde ve 8 yapıldığında,
+ve Java'ya myInt'i getirmesi istendiğinde, 8 getirecektir.
+
+myInt değişkenine verilmiş en son değer örneğin 2 ise ve biz 
+Java'ya myInt'i 4 artırmasını söylersek, Java, myInt'in değerini
+6 yapar ve artık myInt Java için 2 değil 6'dır.
+
+Bir değeri dijital hafızada depolamak istediğimizde, Java'da
+data türüne uygun bir değişken oluşturup o değişkene bir isim veririz.
+
+
+

@@ -1,0 +1,28 @@
+► Commit ve push yapmak istediğin klasörün adres kutusuna
+cmd
+yaz ve Enter'a bas.
+
+
+► Açılan komut istemi penceresinde, şu komutu gir ve Enter:
+git add .
+Sondaki noktayı unutma, gözünden kaçmasın.
+
+
+► Şimdi, şu komutu gir ve Enter:
+git commit -m"Mesaj"
+Üstte, Mesaj kelimesi bir değişken. O kelimenin yerine,
+ne mesaj yazmak istiyorsan onu yaz.
+Ama kısa ve açıklayıcı bir not olmalı.
+Buna "commit message" deniyor.
+Ben "komit mesajı" diyorum.
+
+► Şimdi, şu komutu gir ve Enter:
+git push
+
+
+
+Herhangi bir hata vermediği varsayılırsa, şimdi GitHub'daki
+ilişik repoya git ve orada yaptığın değişikliklerin işlenmiş
+olduğunu görmen gerekiyor.
+
+

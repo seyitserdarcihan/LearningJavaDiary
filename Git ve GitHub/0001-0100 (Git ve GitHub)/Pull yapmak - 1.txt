@@ -1,0 +1,29 @@
+Bu not şu komutun ne olduğu ile ilgilidir:
+git pull
+
+
+Eğer GitHub'daki repoda bir dosya varsa ve bu dosya lokal klonda yoksa,
+lokal klonda yaptığın bir değişikliği komit etmeden önce,
+şu komutu kullanarak GitHub'daki repoyu bilgisayarına güncellemen gerekiyor:
+git pull
+
+
+"git pull" ifadesini şöyle tercüme ettiğimizi varsayabiliriz:
+"repoyu yerel bilgisayardaki klona güncelle ve ikisini aynı şeye dönüştür"
+
+
+Soru: Repodaki fark, sadece yerelde olmayan dosyalar olduğunda mı pull
+yapılır, yoksa şöyle olduğunda da pull yapmak gerekir mi, repodaki
+dosyaların hepsi aynı adlarla ve dosya türleriyle yerel klonda da var,
+ama repodaki dosyalar üzerinde değişiklik yapılıp komit edilmiş ve bu 
+komitler yerel klonda yapılmış değişiklikler değil, örneğin repoda
+Dosya.txt diye bir dosya var ve klasör konumu lokal klonda da aynı, şimdi,
+bu metin belgesini lokalde değil de GitHub üzerinden değiştirip komit
+yaptığımızda, repoya yeni bir dosya eklemiş olmuyoruz, sadece bir dosyanın
+içeriğini değiştirmiş oluyoruz ama artık repodaki ve lokaldeki proje aynı değil,
+bu durumda lokaldeki klasörden bir commit ve push yaptığımızda, hata verir mi,
+yoksa commit ve push çalışır mı? Dene ve gör bakalım. Ama sonra, şimdi değil.
+
+
+
+

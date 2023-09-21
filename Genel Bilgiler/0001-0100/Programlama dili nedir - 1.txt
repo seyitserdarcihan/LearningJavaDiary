@@ -1,0 +1,33 @@
+
+"Programlama dili, bir yazılımcının 
+bir algoritmayı ifade etmek amacıyla, 
+bir bilgisayara 
+ne yapmasını istediğini anlatmasının
+tektipleştirilmiş yoludur"
+
+
+
+Programlama dili Java, kendi dilinde yazılan kodları,
+ikili koda (binary code) dönüştürür. Bu işe derleme (compiling)
+denir. Java, bunu JDK (Java Development Kit) vasıtasıyla yapar. 
+Java dilindeki kodu ikili koda tercüme etmesinin sebebi,
+bilgisayarın Java dilini anlamamasıdır. Bilgisayar ancak
+ikili kodu anlar. 1'ler ve 0'lar... Yani yüksek voltta elektrik (1)
+ve çok daha düşük voltta elektrik (0). İşte bilgisayarın 
+anladığı dil budur. Dolayısıyla olay şu:
+
+- Biz insanlar istediğimiz meramımızı Java'ya
+Java'nın anladığı dilden yazarız. Bu dil, Java programlama
+dilidir.
+
+- Java ise, bu meramı, bilgisayara, onun anladığı dilden
+iletir. Bu dil ise, ikili koddur (binary code).
+Ancak böylece bilgisayar, bizi anlar.
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+
+► Şu sayfaya git:     https://github.com/seyitserdarcihan?tab=repositories     
+    Orada,  New  yazan yeşil butona tıkla.
+
+► GitHub'da repo oluşturduktan sonra, lokal bilgisayarda bir klasör oluştur. 
+    O klasörün içine GitHub'daki repoyu bir klasör olarak kopyalayacaksın. 
+    Daha sonra o klasörün içinde bir değişiklik yaptığında bu değişikliği 
+    GitHub'daki repoya commit yaparak, projede yaptığın değişiklikleri ya da 
+    diğer adıyla güncellemeleri GitHub'da kaydetmiş olacaksın. 
+    Böylece bir proje üzerinde (mesela Java dilinde yazılmış bir programda) 
+    yaptığın güncellemeleri lokal bilgisayar dışında bir yerde 
+    güvenli olarak saklamış oluyorsun. 
+
+► Lokal bilgisayarda oluşturduğun klasörü aç ve adres çubuğuna 
+    cmd yaz ve Enter'a bas.
+
+► Açılan komut penceresine şunu gir
+    git clone REPONUN-URLSİ
+
+    Reponun URL'si için örnek bir repo adresi:
+    https://github.com/seyitserdarcihan/TestGit3 
+    Bu sayfada    < > Code     butonuna tıkla. 
+    Oradaki URL'yi, yanındaki kutuya tıklayarak kopyala.
+    Kopyaladığın URL'yi yukarıda REPONUN-URLSİ 
+	yerine yaz ve Enter.
+
+► Eğer repo boş idiyse, komut penceresinde şöyle bir uyarı çıkabilir
+    ve bu önemli değil:
+    Warning: You appear to have cloned an empty repository.
+
+► Şimdi, lokal bilgisayardaki klasörün içinde, klonlanan repo 
+    bir klasör olarak mevcut. Artık, o klasörde bir değişiklik 
+	yapıldığında ve commit edildiğinde, repo da güncellenmiş olacak.
+	
+	
+
+
+
+
+
+
+
+

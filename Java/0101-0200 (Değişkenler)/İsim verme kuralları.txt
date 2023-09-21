@@ -1,0 +1,56 @@
+▬▬▬▬▬▬▬▬▬▬▬▬ Değişkenlere İsim Verme Kuralları ▬▬▬▬▬▬▬▬▬▬▬▬
+
+1) 
+Değişken isimleri büyük-küçük harflere duyarlıdır.
+Örneğin, şu dört değişkenin dördünü de Java farklı değişkenler olarak algılar:
+nOT, not, Not, NOt
+
+
+2) 
+Değişken isimlerinde harf, rakam, alt tire veya dolar işareti kullanılabilir.
+Ancak, boşluk veya özel karakter kullanılamaz. Özel karaktere örnek yıldız.
+
+3)
+Değişken ismi rakam ile başlatılmamalıdır.
+Alt tire veya dolar işareti ile değişken ismi başlatılabilir,
+ama tavsiye edilmez.
+Neticede, bir değişkenin adı harf ile başlatılmalıdır.
+
+4)
+Değişken isimleri olarak anahtar kelime kullanılamaz.
+Anahtar kelimeler Java dilinin yazarları tarafından belirlenmiştir.
+Anahtar kelimelerin bir listesini şurada okuyabilirsin:
+https://www.geeksforgeeks.org/list-of-all-java-keywords/
+
+5)
+Değişken isimleri küçük harfle başlar, ancak eğer değişken ismi
+birkaç kelimeden oluşacaksa, kelimeler bitişik yazılır ve
+ikinci kelimenin ve sonraki kelimelerin başharfleri büyük yazılır.
+Buna deve hörgücü yazım denir. Bakınız:
+https://en.wikipedia.org/wiki/Camel_case
+Bir deve hörgücü yazım örneği:
+elvesDwelledInGreyHavens
+Üst satırdaki karakter serisinin İngilizce doğru yazılışı:
+Elves dwelled in Grey Havens
+
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Sözlük ▬▬▬▬▬▬▬▬▬▬▬▬
+Alt tire: 'Underscore' veya 'underline' (_)
+'Anahtar kelime' veya 'Anahtar sözcük': Keyword
+Boşluk: Space
+Büyük harf: 'Uppercase letter' (veya sadece) 'uppercase' (veya) 'capital letter' (veya sadece) 'capital'
+Büyük-küçük harflere duyarlı: Case sensitive
+Büyük-küçük harf duyarlılığı: Case sensitivity
+Değişken: Variable
+Değişken ismi: Variable name
+Deve hörgücü yazım: Camel case
+Dolar işareti: Dollar sign ($)
+Harf: Letter
+İsim verme kuralları: Naming convention 
+Küçük harf: 'Lowercase letter' (veya sadece) 'lowercase'
+Rakam: Digit
+Yıldız: Asterisk
+
+

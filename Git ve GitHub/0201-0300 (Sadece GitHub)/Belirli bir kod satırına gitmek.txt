@@ -1,0 +1,38 @@
+Satırlardan oluşan bir tek dosyanın olduğu bir penceredesin.
+Bu dosya bir metin belgesi olabilir, bir kod olabilir, etc.
+Olması gereken şu, gittiğin sayfada satırlardan oluşan bir dosya
+var mı?
+
+Örneğin şu sayfada satırlar var:
+https://github.com/seyitserdarcihan/SSCPrimitiveProject0003/blob/master/src/learning001/IsWorldHell.java
+
+İstediğin satıra gitmek için şunu yap:
+Klavyende L harfine bas.
+
+Şimdi "Jump to line" penceresinin açılmış olması gerekiyor.
+Açıldıysa, kutuya bir sayı gir ve Enter.
+Örneğin yukarıdaki URL'de, "Jump to line" kutusuna 9 yaz ve Enter.
+
+Şu satıra gidip vurgulaması gerekiyor:
+         System.out.println("But in Hell, there is only misery and misery");
+		 
+
+Eğer o web sayfasında, kutuya girdiğin sayıda bir satır yoksa, şu kırmızı uyarıyı verir:
+Invalid line number
+
+Anlamı: Geçersiz satır numarası
+
+Mesela, yukarıdaki web sayfasında, "Jump to line" penceresini aç ve 25 yaz ve Enter.
+
+
+
+Eğer istediğin satıra gittikten sonra yukarıdaki URL'ye dikkat edersen URL'nin sonuna
+şunun eklenmiş olduğunu görürsün:
+           #L9
+Örnekte, dokuzuncu satıra gittiğimiz için böyle oldu. Beşinci satıra gitseydik, URL
+şöyle değişecekti:
+           #L5
+		   
+		   
+		   
+Sanırım bu kadar açıklama yeterli gelir.

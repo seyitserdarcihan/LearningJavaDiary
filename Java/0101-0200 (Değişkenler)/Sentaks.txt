@@ -1,0 +1,74 @@
+Değişken (variable) oluşturmak ve ona bir değer (value) atamak için
+Java dilinde kullanılan sentaks (syntax) şu şekildedir:
+data type        variable name        assignment operator        value        terminator         
+data türü        değişken adı            atama işleci            değer         sonlayıcı
+
+Örnek bir değişken bildirimi (variable statement):
+int myInt = 10;
+
+Üstteki kod parçasında "int" kelimesi bir data türüdür. İngilizce "integer"
+kelimesinin kısaltmasıdır. "integer", "tamsayı" demektir. Tamsayı ise 
+"kesir olmayan sayı" demektir. Bu bilgi "int"in ne olduğunu anlamayı sağlar.
+
+Sentaksa geri dönecek olursak, yukarıdaki "int" bir data türünü (data type) ifade ediyor.
+"myInt" ise bir değişkenin adıdır (variable name).
+= işareti ise bir atama işlecidir (assignment operator).
+10 sayısı, değişkenin değeridir (value).
+Sentaksın sonundaki noktalı virgül (semicolon) ise sonlayıcıdır (terminator).
+
+
+
+Değişken örneğini ve her unsurun altına da gramer teriminin adını yazalım:
+   int                 myInt                        =                    10                 ;
+(data türü)        (değişken adı)            (atama işleci)            (değer)         (sonlayıcı)
+
+
+
+
+Atama işlecinin sol tarafındaki sentaks kısmına şu isim verilmektedir:
+deklarasyon (declaration) 
+Atama işlecinin kendisini de dahil ederek sağ tarafta kalan sentaks kısmına ise şu ad verilir:
+değer atama (assignment)
+
+
+Dolayısıyla şöyle de denebilir:
+Bir değişken, iki kısımdan oluşur ve toplam beş unsurdan meydana gelir.
+
+
+
+Bir değişken, herhangi bir değer atanmadan boş bir değişken olarak oluşturulabilir.
+Bunun için şunu kodlamak yeterlidir:
+data türü        değişken adı        sonlayıcı
+
+Örneğin:
+int myInt ;
+
+Şimdi bir değişken oluşturulmuş oldu. Yani, değer atanmadan.
+
+Ne oldu?
+Java yazılımı, dijital hafızada myInt değişkeni için bir alan ayırdı ve
+bu alanın adını myInt olarak belirledi.
+Ayrılmış hafıza alanına İngilizce'de "reserved memory area" deniyor.
+Dijital hafızaya, İngilizce'de "memory" denir.
+
+
+
+Herhangi bir değer atanmamış olan değişkeni Java'dan getirmesini istersek,
+Java bir şey getiremez, çünkü hiçbir değer yok.
+
+
+
+Java'da deklarasyon (declaration) ve değer atama (assignment),
+aynı satırda yapılmak zorunda değildir. Farklı satırlar kullanılabilir.
+Sadece değer atama bildirimi (assignment statement) içeren bir bildirim (statement):
+myInt=42;
+
+Üstteki kod parçası bir bildirimdir (statement) ve bununla yapılmış
+olan iş, bir değer atamadır (assignment).
+Ancak, böyle bir bildirimin mümkün olması için, önceden myInt değişkeninin 
+oluşturulmuş olması gerekiyor (bomboş da olsa).
+
+
+
+
+

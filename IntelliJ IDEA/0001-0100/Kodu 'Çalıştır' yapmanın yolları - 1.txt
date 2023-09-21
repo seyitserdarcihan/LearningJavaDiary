@@ -1,0 +1,30 @@
+Press 
+
+Fn   Shift   F10
+
+to run the code.
+
+
+Burada Fn kullanman gerekiyor, yani bu üç tuşa baştan başlayarak
+üç aşamada basman ve F10'a bastığında, üç tuşa da basıyor olman
+gerekiyor. 
+
+Neden Fn buna dahil? Çünkü bendeki bir dizüstü bilgisayar klavyesi.
+Sanırım PC klavyesinde F tuşları ayrı oluyor ve Fn kullanmaya
+gerek kalmıyor.
+
+Aslında IntelliJ IDEA'nın gösterdiği ipucu bilgisinde
+Fn 
+yok. Sadece şöyle:
+Shift   F10
+
+Ancak bunu dizüstünde çalıştıramazsın,
+eğer başta Fn kullanmazsan.
+
+Neden bunu bilmek gerekir? Yeşil renkli "Run" butonuna
+tıklamak son derece yeterli değil mi?
+Hayır. Alternatif klavye yollarını bilmek gerekir.
+Bunun ne zaman işine yarayacağını bilemezsin.
+
+
+

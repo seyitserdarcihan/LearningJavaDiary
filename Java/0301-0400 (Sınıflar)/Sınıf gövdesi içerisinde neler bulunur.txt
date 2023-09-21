@@ -1,0 +1,77 @@
+Bir "class body" içerisinde "variable"lar ve "method"lar bulunur.
+
+Bilgisayarda nasıl anakart olmazsa, diğer hiçbir donanım işe yaramaz.
+Bunun gibi de Java kodunda bir main method olmalıdır. 
+Eğer o olmazsa, Java kodu çalışmaz. Main method, programın 
+başlangıç noktasıdır, giriş noktasıdır (entry point).
+
+Aşağıdaki "class"ın "class body"si içinde bir "main method" var.
+
+
+
+public class HelloWorld {
+
+     public static void main(String[] args) {
+
+     }
+
+}
+
+
+
+Bir class içinde main method dışında, "variable"lar olabilir.
+
+Örneğin aşağıdaki "class"ın "class body"si içinde hem bir main method var,
+hem de "variable"lar var.
+
+
+
+
+public class HelloWorld {
+
+     int ogrNo=747;
+	 String isim="Alkor Karakanat";
+	 boolean ogrenciMi=true;
+	 double notOrt=78
+	 
+	 
+     public static void main(String[] args) {
+	    
+		double yaziliNotu=74;
+		double sozluNotu=82;
+
+     }
+
+}
+
+
+Kullanılabilir bir Java classının içinde "variable"ların olması
+gerekir. 
+
+Bir Java classının içinde main method dışında birçok method olabilir.
+Aşağıdaki örnekte, classın içinde main method dışında başka bir
+method daha görünüyor. Metodun ismi "anotherMethod"
+
+
+public class HelloWorld {
+
+     int ogrNo=747;
+	 String isim="Alkor Karakanat";
+	 boolean ogrenciMi=true;
+	 double notOrt=78
+	 
+	 
+     public static void main(String[] args) {
+	    
+		double yaziliNotu=74;
+		double sozluNotu=82;
+
+     }
+	 
+	 public void anotherMethod () {
+	 
+	 }
+
+}
+
+

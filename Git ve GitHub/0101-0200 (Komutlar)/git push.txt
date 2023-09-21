@@ -1,0 +1,8 @@
+Lokal proje dosyalarında yapılan bir değişikliğin, 
+önceden ilişkilendirilmiş olan GitHub reposu ile
+senkronize edilmesini sağlar. 
+
+Eğer GitHub reposunda lokal olmayan bir değişiklik 
+yapıldıysa önce şu komutun çalıştırılması gerekir:
+git pull
+

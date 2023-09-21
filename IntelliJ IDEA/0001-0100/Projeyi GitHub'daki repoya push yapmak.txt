@@ -1,0 +1,54 @@
+► Main Menu araç çubuğunda Git'e tıkla.
+
+► Main Menu araç çubuğu görünmüyorsa,
+sol üstte üst üste dört yatay çizgi şeklinde görünür.
+Oraya tıkla ve geçici olarak görünen araç çubuğunda,
+şuraya git:
+View
+    Appearance
+          Main Menu as Separate Toolbar
+Bu sonuncuyu seç ve ana menü araç çubuğu olarak görünecek.
+
+► Şimdi ana menü (Main Menu) araç çubuğunda, Git'e tıkla.
+
+► Açılan menüde şuna tıkla: Commit
+
+► Komit yapabilmek için bir komit mesajı (commit message)
+girmen istenir. Bu mesaj için input kutusu, sol altta
+kocaman bir kutu ancak onu kutu olarak farketmeyebilirsin.
+Kutu, şu iki butonun üzerinde yer alan bir boşluk şeklinde
+görünüyor:
+Commit      Commit and Push...
+
+► Mesaj input kutusuna bir kısa mesaj gir. Ben 
+şunun gibi yazıyorum mesela:
+SSCJava0002-000004
+Benim için açıklayıcı bir mesaj. Bu bir log.
+Şuna dikkat et, hiçbir komite aynı mesajı verme.
+Böylece geçmişe dönüp belki aradığını daha iyi
+bulabilirsin.
+
+► Şimdi şuna tıkla: Commit
+Hata yoksa, komit tamamlanmıştır.
+
+► Şimdi, ana menü araç çubuğunda Git'e tıkla yeniden.
+Açılan menüde şuna tıkla: Push
+
+► Veya şunu yapabilirsin.
+Ana Menü araç çubuğunda, Commit seçeneğine tıkladıktan sonra
+sol alttaki kutuya komit mesajını girdikten sonra 
+Commit düğmesinin sağındaki şu düğmeye tıklayabilirsin:
+Commit and Push...
+Böyle yaparsan, komiti hemen yapar ve otomatikman
+Push penceresi açılır.
+Push düğmesini vurgulanmış mavi renkte kolaylıkla
+görebilirsin. Ona tıkla ve hata yoksa görev tamamlandı.
+
+Şimdi GitHub'da daha önceden oluşturmuş olduğun repoya gidip
+değişikliklerin gerçekleştiğini görebilirsin.
+
+
+
+ 
+	
+	

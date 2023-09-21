@@ -1,0 +1,82 @@
+Aşama aşama yapılması gerekenler şunlar:
+
+1) Şu adrese git:   
+     https://git-lfs.com/
+
+
+2) Git Large File Storage programını indir ve kur.
+
+
+3) Komut İstemi'ni aç ve şu komutu gir ve Enter:
+     git lfs install
+
+
+4) Şimdi GitHub'da reposu olan ve yerelde klonu
+olan projenin yereldeki klasörüne git ve klasörün
+içindeysen, adres çubuğuna şunu yaz ve Enter:
+	 cmd
+	 
+	 
+5) Komut İstemi'nde istediğin klasördesin. 
+
+
+6) Şimdi şunu anla. Diyelim ki projedeki .pdf uzantılı
+dosyaların hepsini Git LFS vasıtasıyla
+GitHub'daki repoya yüklemek istiyorsun.
+İçinde bulunduğun proje ana klasöründe açtığın
+Komut İstemi penceresinde şu komutu gir:
+	 git lfs track "*.pdf"
+	 
+	 
+7) Komut İstemi penceresini henüz kapatma. Şu komutu
+da gir ve Enter:
+	 git add .gitattributes
+Bu komutu o projende bir daha girmene gerek kalmayacak.
+Ama altıncı aşamadaki komutu her dosya uzantısı için kullanacaksın.
+
+	 
+	 
+8) Yukarıdaki yedi aşamanın hepsi şunu varsayıyor:
+GitHub'da bir repo açmışsın. Bu repoyu yereldeki 
+projeler klasörünün içine klonlamışsın. O ilgili
+proje klasörünün içine gittin ve yukarıdaki yedi
+aşamayı uyguladın.
+	 
+	 
+9) Şimdi şu üç komutu uygulayabilirsin:
+git add .
+git commit -m"commitmessage"
+git push
+	 
+Mesela, 30 MB'lık bir PDF dosyasını proje 
+klasörünün içine yapıştır. Ardından, üstteki
+üç komutu sırasıyla o klasörde açılan Komut İstemi'nde
+uygula.
+	 
+Dosyanın büyüklüğüne ve kişisel 
+internet upload hızına göre, büyük dosyanın GitHub'daki
+repoya yüklenmesi zaman alır. Diğer commit ve push
+süreçlerindeki gibi hemen sona ermez.
+	 
+
+UYARI: Eğer yukarıdaki 6. ve 7. aşamayı herhangi bir dosya
+uzantısı için uygulamazsan, Git LFS, o uzantı için 
+kullanılamaz. Yukarıdaki örnekte, PDF dosyaları için 
+Git LFS'in takibini aktive ettin. Ama diyelim ki .mkv 
+dosyaları için aktive etmedin. O zaman Git LFS'i 
+büyük .mkv dosyası için kullanamazsın. Bu sebeple, 
+projedeki her istediğin dosya uzantısı için şu komutu 
+girmen gerekiyor:
+	   git lfs track "*.abcdefg"
+Üstteki komutta abcdefg kelimesi yazan yere o dosya 
+türünün uzantısı ne ise onu yazman gerekiyor, örneğin:
+	   git lfs track "*.wmv"
+	   git lfs track "*.avi"
+	   git lfs track "*.thingamajig"
+	   git lfs track "*.aiaearendilelenionancalima"
+	   git lfs track "*.okaythatsenough"
+
+
+
+
+

@@ -1,0 +1,15 @@
+Aynı data türündeki birden fazla değişken, aynı satırda deklare edilip,
+sonra tek tek değer atama (assignment) yapılabilir.
+Örnek:
+
+
+        int birthYear, deathYear, lifeTime;
+        birthYear= 1892;                             
+        deathYear= 1973;                             
+        lifeTime= deathYear - birthYear;
+        System.out.println(lifeTime);
+		
+		
+		
+		
+		

@@ -1,0 +1,18 @@
+Press Alt+Enter with your caret at the highlighted text to see how
+IntelliJ IDEA suggests fixing it.
+
+
+Örneğin, bir kelime var ve dalgalı alt çizgi ile işaretlenmiş,
+yani bir tür hata söz konusu. IntelliJ IDEA bu hatayı nasıl
+düzeltebileceğini öneriyor.
+
+
+Bunun için yapman gereken şu:
+İmleç ile o kelimeye bir kere tıkla. Bu, o kelimenin
+fonlanmasını (highlighted) olmasını sağlar. Şimdi şuna bas:
+Alt Enter
+
+
+IntelliJ IDEA, o hatayı nasıl düzeltebileceğini önerecektir.
+
+

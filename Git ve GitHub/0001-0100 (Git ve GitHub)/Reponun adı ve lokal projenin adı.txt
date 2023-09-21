@@ -1,0 +1,4 @@
+GitHub'da oluşturulan reponun adı lokal projenin 
+ana klasörünün adı ile aynı olmak zorunda değil.
+
+

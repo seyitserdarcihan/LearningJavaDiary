@@ -1,0 +1,43 @@
+Aşağıdaki kodda odaklanman gereken şu kısım: 
+%n
+Bu kod bir stringe eklendiğinde, stringin neresine eklenirse ondan sonraki
+kısmı yeni satır olarak output yapıyor.
+
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.printf("Hello and welcome!%n");
+
+        for (int i = 1; i <= 5; i++) {
+
+            System.out.println("i = " + i);
+        }
+    }
+}
+
+
+
+Çıktı şöyle görünür:
+Hello and welcome!
+i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+
+
+Eğer %n kodunu oraya eklemezsen, çıktı şöyle görünecek:
+Hello and welcome!i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+
+
+
+
+Kullanılan IDE: IntelliJ IDEA
+Programlama Dili: Java
+
+
+  

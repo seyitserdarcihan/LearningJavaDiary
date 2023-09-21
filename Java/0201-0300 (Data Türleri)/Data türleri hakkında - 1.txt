@@ -1,0 +1,44 @@
+Java'da sekiz tane basit data türü (primitive data types) kullanılır ve 
+bu sekiz data türü dört grupta toplanır:
+
+
+
+1. Grup - Boolean: Mantıksal data sonuçlarını depolamak için kullanılır.
+          Boolean data türündeki bir değişken sadece iki değer barındırabilir:
+	      true / false
+	      Bilgisayar true için 1, false için 0 değerini tutar.
+          Dolayısıyla, bir boolean data hafızada sadece 1 bit yer kaplar.	
+	      Hafızada ne kadar az yer kaplarsan o kadar iyi bir özelliktir.
+
+2. Grup - Character: Java dilinde char olarak yazılır. char data türü tek bir 
+          karakter barındırır. Bu tek karakter, bir harf, bir sayı veya
+	      bir özel karakter olabilir ve boşluk karakteri de olabilir.
+	      Özellik burada tek bir karakter olması.
+	
+	      char data türünün en belirgin farklılığı, tek tırnak (single quotation marks)
+	      kullanmasıdır. Örnek:
+	      char letter= 'J', number= '3' character= '‰';
+	      Üstteki tambildirim, şöyle yazılmamalıdır:
+	      char letter= "J", number= "3" character= "‰";
+	      Yanlış olan yazımda çift tırnak (double quotation marks) kullanıldı.
+	
+	      char data türü hafızada 16 bit yer kaplar.
+	
+3. Grup - Integers: Tam sayı (integer) barındıran data türleridir. 
+          Dört data türünden oluşur: byte, short, int, long.
+          Dört data türü de tam sayılar içindir ancak, hafızada kapladıkları alan
+          farklıdır.
+		  
+		  byte data türü hafızada 8 bit yer kaplar. Minimum değer -128, maksimum değer 127. 
+		  short data türü hafızada 16 bit yer kaplar. Minimum değer -32768, maksimum değer 32767.
+		  int data türü hafızada 32 bit yer kaplar. Minimum değer -2147483648, maksimum değer 2147483647.
+		  long data türü hafızada 64 bit yer kaplar. Minimum değer -9223372036854755808, maksimum değer 9223372036854755807.
+		  
+		  
+		  
+		  
+		  (bu notu yazma işi yarım kaldı... başka zaman devam ederim)
+		  
+		  
+	
+	

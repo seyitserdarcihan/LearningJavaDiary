@@ -1,0 +1,26 @@
+Kodu Yoruma Dönüştürmek veya Sıfırdan Yorum Yazmak
+
+
+
+
+Sadece bir satırı yoruma dönüştürmek için,
+kodun başına iki taksim işareti (eğik çizgi) koyman gerekiyor.
+Hemen alttaki gibi:
+
+//..........................
+
+
+Bütün bloku yoruma dönüştürmek için aşağıdaki gibi
+taksim işareti ve yıldız kullanman gerekiyor:
+
+
+/*..........................*/  
+
+
+Sözlük:
+taksim işareti = eğik çizgi = slash
+ters eğik çizgi = backslash
+yıldız = asterisk
+
+
+ 

@@ -1,0 +1,27 @@
+Aşağıda bir main method örneği var:
+
+
+     public static void main(String[] args) {
+	 
+	 
+	 }
+	 
+Üstte görülen main method içindeki şu kelimeler "syntax"dir:
+public static void main
+
+Burada geçen "main" kelimesi, aslında methodun ismidir 
+ve normalde method isimleri keyfi olarak belirlenebilir 
+anahtar kelimelerdir (keyword)
+ancak, eğer bu "main" kelimesi yerine başka bir 
+anahtar kelime (keyword) yazılırsa o zaman bu method 
+main method olmaktan çıkar, başka bir method olmuş olur
+ve main method olmazsa olmaz bir unsurdur.
+Dolayısıyla, buradaki "main" kelimesini de 
+değiştiremeyiz. Dört sentaks da sabittir, değiştirilemez.
+
+
+Parantez içindeki şu alttaki unsurlara "array" denir:
+String[] args
+Bu "array"ler de mutlaka yazılmalıdır.
+
+

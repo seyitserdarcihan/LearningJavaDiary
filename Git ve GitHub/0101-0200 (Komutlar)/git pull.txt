@@ -1,0 +1,14 @@
+Bir çevrimiçi repodaki projeyi aynı klasör organizasyonu ile 
+lokal bilgisayara kopyalama işini yapan komut.
+
+Şöyle kullanılır:
+
+git pull <reponun URL'si>
+
+
+
+
+
+
+
+
