@@ -1,0 +1,9 @@
+git checkout main
+
+
+Yukarıdaki komut kullanılarak bir projede ana dala geçiş
+yapılır. Ana dal standart olarak 'main' diye isimlendirilir.
+
+
+
+

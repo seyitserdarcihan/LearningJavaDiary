@@ -1,0 +1,41 @@
+İzlemen gereken yol şu:
+
+> File
+       > New
+              > Project from Version Control...
+			  
+
+Açılan pencerede URL kutusuna GitHub'daki reponun URL'sini yapıştır.
+Directory kutusundaki klasör yolunun son kısmına bir ters eğik çizgi 
+ile istediğin proje klasörü ismini yaz. Örneğin, klasör yoluna şunu
+ekle:
+
+\Proje14
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Taslak Açıklamalar ▬▬▬▬▬▬▬▬▬▬▬▬
+Uzak repodaki proje bilgisayara klonlandı, ancak henüz yerelde
+bir Git reposu hâline getirilmedi. Bunun için terminali açmalısınız.
+Terminal, sol alttaki menüdeki simgeye tıklayarak açılabilir.
+Şimdi terminalde şu komutu yazın ve Enter'a basın:
+git init
+
+Artık GitHub'daki o reponun klonu yerel bir repo haline getirildi.
+Ancak, bu yereldeki reponun, o uzak repo ile aynı proje olduğunu
+Git yazılımına bildirmemiz gerekiyor. Bunun için uygulanacak komutlar şunlar:
+git branch -M main
+git remote add origin 
+git push -u origin main
+
+Normalde şu iki komutu girmek gerekmez:
+git remote add origin 
+git push -u origin main
+
+Ancak, birkaç kişi takım çalışması yaptıklarında işler değişir.
+
+
+
+
+
+
+	   

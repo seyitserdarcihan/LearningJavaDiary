@@ -1,0 +1,39 @@
+▬▬▬▬▬▬▬▬▬▬▬▬ Hata Mesajı ▬▬▬▬▬▬▬▬▬▬▬▬
+error: src refspec main does not match any
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Bu Hatanın Tam Olarak Nasıl Ortaya Çıktığı ▬▬▬▬▬▬▬▬▬▬▬▬
+Kendisi ile ilişik bir yerel Git reposu oluşturulmuş olan
+klasörün içinin boş olması durumunda bu hata ortaya çıkar.
+Şöyle:
+► Yerel bir klasör oluşturdunuz.
+► Bu yerel boş klasörü şu komutla bir Git reposuna dönüştürdünüz:
+git init
+► Boş klasörü yerel repoya şu komutla aktardınız:
+git add .
+Şimdi bu boş klasörü, kendisi de boş olan uzak repoya push yapmak
+istiyorsunuz.
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Problemin Çözümü ▬▬▬▬▬▬▬▬▬▬▬▬
+Yerel klasörü komut istemi üzerinden Git'te ve GitHub'da repo
+haline getirmeden önce klasörün içine bir metin dosyası ekle,
+dosyaya bir iki cümle bir şey yaz. Hatta metin dosyasını oluşturup 
+içine hiçbir şey yazmasan da olur. Yeter ki projede bir dosya 
+mevcut olsun.
+
+Normalde, IntelliJ IDEA'da başlatılan bir Java programı projesini
+repo haline getirirken bu yukarıda geçen hata ile hiçbir zaman
+karşılaşmazsın. Çünkü halihazırda birkaç tane dosya oluşturulmuş
+oluyor.
+
+Yukarıdaki hatanın ortaya çıkışı, ancak şu durumda olur: Bilgisayarda
+bir klasör oluşturdun ve bunu Git'te ve GitHub'da repo haline getirmek
+istedin ve klasörün içinde hiç dosya yok.
+
+
+
+
+

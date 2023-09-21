@@ -1,0 +1,44 @@
+git remote add origin <uzak reponun URL'si>
+
+
+Yukarıdaki komutu parça parça açıklamak gerekirse:
+
+
+'git' komutu Git yazılımını yerel bilgisayarda kullanabilmek
+için girilen komuttur.
+
+
+'remote' alt komutu bir uzak repo (remote repository) hakkında
+yapılan işlemlerde kullanılan alt komuttur.
+
+
+'add' alt komutunu kullanarak, bir uzak repoyu 
+bir yerel repo ile ilişkilendiririz.
+
+
+'origin' uzak repo kastedildiğinde kullanılan
+varsayılan adlandırmadır.
+
+
+<uzak reponun URL'si> yazan yere uzak reponun adresini
+yazarız. 
+
+
+En yukarıda yazan komuta bir örnek vermek gerekirse:
+git remote add origin https://github.com/seyitserdarcihan/LearningJavaDiary.git
+
+
+Yerelde oluşturulmakta olan bir repo ile uzak repo arasında
+bir senkronizasyon bağlantısı kurmak için takip edilmesi gereken 
+komut dizisi şöyle:
+
+git init
+git add .
+git commit -m "komit mesajı"
+git branch -M main
+git remote add origin <uzak reponun URL'si>
+git push -u origin main
+
+
+
+

@@ -1,0 +1,27 @@
+Bir projenin hangi dalında olduğunuzu görebilmek için 
+şu komutu yazın ve Enter'a basın:
+
+git branch
+
+
+Hangi dalda olduğunuzu komut istemi bir yıldız (asterisk) ile
+belirtiyor, örneğin, bir dal listesi olur ve hangi dalda olduğunuzu
+komut istemi şöyle gösterir:
+
+dal1
+dal2
+dal3
+* main
+
+Üstteki örnekte, 'main' dalındasınız.
+
+Bir proje birden fazla daldan oluşuyorsa, hiçbir değişiklik
+yapmadan önce hangi dalda olduğunuzu kontrol etmelisin.
+
+
+
+
+
+
+
+

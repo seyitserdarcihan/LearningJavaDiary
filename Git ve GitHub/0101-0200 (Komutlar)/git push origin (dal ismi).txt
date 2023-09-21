@@ -1,0 +1,18 @@
+Bir yan dal üzerinde yapılan değişiklikleri ana dal ile birleştirmeden
+yan dal üzerinden uzak repodaki yan dalı güncellemek için
+takip edilmesi gereken komut dizisi şöyle:
+
+
+git add .
+git commit -m "komit mesajı"
+git push origin <dal ismi>
+
+
+Örnekte dal ismi seyit4 olsun. İşlenecek son komut şöyle:
+git push origin seyit4
+
+
+
+
+
+

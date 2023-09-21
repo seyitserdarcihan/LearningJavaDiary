@@ -1,0 +1,41 @@
+Bir dalı, ana dal ile birleştirmek için yapılması gerekenler:
+
+git checkout main
+Üstteki komutu kullanarak main dalına geçiş yaparız.
+Ardından alttaki komutu kullanarak ana dal ile birleştirmek
+istediğimiz ikincil dal hangisi ise onunla main dalını 
+birleştirmiş oluruz:
+git merge <ana dal ile birleştirmek istediğimiz dalın ismi>
+
+Örneğin, ana dal üzerinde iken:
+git merge seyit1
+
+yaparsak ve seyit1 diye bir dal varsa, birleştirme işlemini yapar.
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Not 1 ▬▬▬▬▬▬▬▬▬▬▬▬
+'merge' komutunu hangi daldayken işlerseniz, birleştirme işlemi
+o dalın üzerine yapılır, diğer dallar olduğu gibi devam eder.
+Söylemeye çalıştığım şu: 
+'merge' komutu sadece ana dal üzerine birleştirme yapmak için
+değildir. Ana dalı olduğu gibi bırakıp, bir yan dal üzerinden 
+kodu geliştirmeye devam etmek için sanırım böyle yapılabiliyor.
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Not 2 ▬▬▬▬▬▬▬▬▬▬▬▬
+Eğer aynı kodun aynı satırında iki dal farklı değişiklikleri komit
+etmişlerse, daha sonra bu iki dal birleştirilmeye çalışıldığında,
+komut istemi şöyle bir hata verir:
+
+error: Merging is not possible because you have unmerged files.
+Fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+
+
+
+
+
+
+

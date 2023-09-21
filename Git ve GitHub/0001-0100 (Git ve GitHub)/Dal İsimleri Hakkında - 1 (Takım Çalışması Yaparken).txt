@@ -1,0 +1,8 @@
+Oluşturduğunuz dal ismine kendi özel adınızı vermelisiniz.
+Bir takım çalışmasında 'main' dalı yöneten kişinin kimin hangi
+değişikliği yaptığını kolayca anlayabilmesi için takımın her
+üyesi kendi dalına kendi özel ismini vermelidir. O dal oluşturulurken
+örneğin şöyle yapmalıdır:
+
+git branch seyit
+

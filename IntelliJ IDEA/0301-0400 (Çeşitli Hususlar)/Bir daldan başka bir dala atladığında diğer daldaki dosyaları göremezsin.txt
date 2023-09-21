@@ -1,0 +1,18 @@
+Fakat o dala geri dönersen, dosyaları yeniden görebilirsin.
+Şöyle:
+
+git checkout dal1
+
+git checkout dal2
+
+git checkout dal1
+
+
+
+dal2 dalındayken, dal1 dalında yaptığın değişiklikleri veya ürettiğin
+dosyaları göremezsin. Bu özellik IntelliJ IDEA'nın güzelliklerinden birisi.
+Bu geçiş olayını çabucak ve görsel olarak yapması.
+
+
+
+

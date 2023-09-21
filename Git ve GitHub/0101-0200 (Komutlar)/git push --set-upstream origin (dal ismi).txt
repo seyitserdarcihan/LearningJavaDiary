@@ -1,0 +1,23 @@
+Yerel repoda bir dal oluşturdunuz ve bu dalın bağlantılı olduğu 
+GitHub reposunda bu dal ile bağlanmış bir dal yok. Bu durumda
+şu komut kullanılarak, GitHub'daki repoda yerel repodaki dal için
+bir uzak dal oluşturulur:
+
+git push --set-upstream origin (dal ismi)
+
+
+
+Örneğin, yerel projede seyit6 diye bir dal oluşturdunuz.
+Bu dalı uzak repodaki bir dal ile bağlamak için şöyle 
+yazılır ve Enter'a basılır:
+
+git push --set-upstream origin seyit6
+
+
+Bu işlem bir kere yapılır. Aynı dal için sonraki yapılacak
+push işlemlerinde sadece şu komutları girmek yeterli:
+git add .
+git commit -m "komit mesajı"
+git push
+
+

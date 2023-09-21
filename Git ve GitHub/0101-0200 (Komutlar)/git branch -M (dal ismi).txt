@@ -1,0 +1,60 @@
+git branch -M <dal ismi>
+komutunu kullanarak, şu anda hangi dalda isek,
+o dalın ismini değiştiririz.
+
+Örneğin, şu anda dal3 diye bir dalda olalım.
+Eğer şu komutu girersek ve Enter'a basarsak:
+
+git branch -M dal24
+
+Artık o üzerinde olduğumuz dalın ismi dal3 değil,
+artık onun adı dal24. Emin olmak için şu komutu yaz ve Enter:
+git branch
+
+Bu üstteki 'git branch' komutu hangi dalda olduğumuzu bize
+bir yıldız işareti (asterisk) ile gösterir.
+
+
+
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ git ▬▬▬▬▬▬▬▬▬▬▬▬
+Bu komut, Git yazılımını komut istemi penceresi üzerinden 
+kullanmak için girilen komuttur.
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ branch ▬▬▬▬▬▬▬▬▬▬▬▬
+Bu alt komut kullanılarak, Git yazılımında dallar ile ilgili
+işlemler, eylemler yapılır.
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ -M ▬▬▬▬▬▬▬▬▬▬▬▬
+-M 
+Bu üstte yazan komut, bir dalın ismini değiştirmeye yarar.
+Sanırım 'move' kelimesinin kısaltması.
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ <dal ismi> ▬▬▬▬▬▬▬▬▬▬▬▬
+Bu bir değişkendir, bunun yerine dalın isminin ne olmasını
+istiyorsak onu yazarız. 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

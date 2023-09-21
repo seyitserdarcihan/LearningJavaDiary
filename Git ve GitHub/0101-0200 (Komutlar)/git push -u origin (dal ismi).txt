@@ -1,0 +1,34 @@
+Eğer bir yan dal üzerinde yaptığın değişiklikler için
+gelecekte sadece şu komutu kullanarak uzak repoya push yapmak
+istersen:
+
+git push
+
+
+
+
+Yapman gereken şu: O yan dal üzerinde iken bir değişiklik yap
+ve ardından şu komutları işle:
+
+git add .
+git commit -m "komit mesajı"
+git push -u origin <dal ismi>
+
+
+Örneğin:
+git add .
+git commit -m "bir değişiklik"
+git push -u origin seyit4
+
+
+Artık seyit4 yan dalı üzerinde bir değişiklik yapıp o dalın
+uzak repodaki karşılığı olan dala push yapmak istediğinde
+şu komutu çalıştırman yeterli:
+git push
+
+
+Bu yapılan push işlemleri, uzak repodaki ana dala hiçbir zarar vermez.
+
+Birleştirme (merge) yapmak, ana dal üzerindeki yetki sahibine ait.
+
+

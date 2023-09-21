@@ -1,0 +1,52 @@
+GitHub'da oluşturulan bir repoya lisans dosyasını sonradan
+eklemenin yolu. Aşama aşama:
+
+
+1) GitHub'da yeni bir repo oluşturmak için şu linke git:
+https://github.com/new
+
+
+2) 'Choose a license' bölümüne hiç dokunma. Öylece bırak.
+Buradaki bütün mesele lisans dosyasını sonradan eklemeyi öğrenmek.
+
+
+3) 'Create repository' kutusuna basarak uzak repoyu oluştur.
+
+
+4) Şimdi reponun URL'sine şunu ekle: 
+/new/main
+ve o adrese git.
+
+
+5) Yeni oluşturulacak olan dosyanın adının belirlendiği kutuya şu kelimeyi yaz:
+License
+
+
+6) GitHub sitesi, o kelimeyi yazdığında, otomatikman şu öneride bulunacak:
+Choose a license template
+
+
+7) O öneriye tıkla. Ekranda şöyle bir pencere çıkacak:
+github.com says
+You have unsaved changes. Do you want to discard them?
+
+
+8) OK seçeneğine tıkla. Şimdi gittiğin sayfada şöyle bir mesaj var mı?
+Choose a license to add to your project
+
+Mesaj büyük fontla tam karşında yazıyor mu?
+Eğer yazıyorsa, soldaki menüden projen için istediğin lisansı seç.
+Ben genellikle şunu seçiyorum:
+GNU General Public License v3.0
+
+
+9) Ekranın sağ tarafında yeşil bir kutuda yazan 'Review and submit'
+seçeneğine tıkla.
+
+
+10) Açılan ekranda sağ tarafta yeşil kutuda yer alan 'Commit changes'
+seçeneğine tıkla.
+
+
+
+

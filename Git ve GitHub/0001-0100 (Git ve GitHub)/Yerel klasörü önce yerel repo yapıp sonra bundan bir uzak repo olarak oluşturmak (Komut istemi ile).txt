@@ -1,5 +1,5 @@
 Burada geçen talimatlar şunları varsaymaktadır: 
-- Git yazılımı bilgisayarınızda yüklü. Eğer yüklü değilse şuradan yükleyin:
+- Git yazılımı bilgisayarınızda yüklü. Eğer yüklü değilse şuradan indirip yükleyin:
                    https://git-scm.com/
 - Bilgisayarınızda bir klasör var ve Git ile hiçbir ilişikliği yok
 - GitHub CLI bilgisayarınızda yüklü. Eğer yüklü değilse şuradan indirip yükleyin:
@@ -15,7 +15,8 @@ Burada geçen talimatlar şunları varsaymaktadır:
 1) Klasörü açın
 
 
-2) Yukarıdaki adres çubuğuna cmd yazıp Enter'a basın
+2) Klasördeki adres çubuğuna şu komutu yazıp Enter'a basın
+cmd
 
 
 3) Açılan komut istemi penceresinde şunu komutu yazıp Enter'a basın:

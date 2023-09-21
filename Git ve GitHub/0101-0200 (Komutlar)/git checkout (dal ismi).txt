@@ -1,0 +1,14 @@
+Bir projenin istediğiniz bir dalına geçiş yapmak için
+şu komutu yazın ve Enter'a basın:
+git checkout <dal ismi>
+
+Örneğin:
+git checkout dal1
+
+O dala gidip gitmediğinizi test etmek için
+şu komutu girin ve Enter'a basın:
+git branch
+
+
+
+

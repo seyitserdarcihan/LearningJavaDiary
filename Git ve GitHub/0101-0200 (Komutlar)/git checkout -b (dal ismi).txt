@@ -1,0 +1,18 @@
+Eğer şu alttaki komutu işlersen, 'git branch' komutunu kullanmadan
+direkt olarak istediğin yeni dalı oluşturmuş ve o dala
+atlamış olursun.
+
+git checkout -b <yeni dalın ismi>
+
+Örneğin:
+git checkout -b seyit4
+
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Not 1 ▬▬▬▬▬▬▬▬▬▬▬▬
+Bunu komut isteminde değil de, IntelliJ IDEA'da 
+terminalde yapmak daha kullanışlı ve anlamaya müsait bir 
+yöntem.
+
+

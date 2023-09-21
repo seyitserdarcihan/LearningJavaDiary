@@ -1,0 +1,19 @@
+Alt + Fn + F12
+
+
+
+
+
+Dizüstü bilgisayarlarda gerekli olan Fn kısmı,
+masaüstü bilgisayarlarda gerekmiyor. O durumda sadece
+şu yeterli olur:
+
+Alt + F12
+
+
+
+
+
+
+
+

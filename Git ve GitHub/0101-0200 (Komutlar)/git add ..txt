@@ -1,0 +1,10 @@
+git add .
+
+Projenin yeni hâlini yerel repoya eklemek için 
+üstteki komut kullanılır.
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Bir dal oluşturmak için şu komutu yaz ve Enter:
+
+git branch <dalın ismi>
+
+Örneğin:
+git branch dal1
+
+
+
+Artık dal1 isimli branch oluşturulmuş durumda.
+
+
+
+

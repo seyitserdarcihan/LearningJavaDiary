@@ -1,0 +1,24 @@
+Yerelde oluşturulmakta olan bir repo ile uzak repo
+arasında bir senkronizasyon bağlantısı kurmak için 
+takip edilmesi gereken komut adımları şöyle:
+
+git init
+git add .
+git commit -m "komit mesajı"
+git branch -M main
+git remote add origin <uzak reponun URL'si>
+git push -u origin main
+
+
+En sonda yer alan komutun şöyle bir faydası var.
+O komutu yazdıktan ve Enter'a bastıktan sonra,
+artık bir sonraki pull veya push işlemlerinde
+sadece şu komutlardan birisini yazmak yeterli olacak:
+
+git pull
+git push
+
+Hangisini kullanmamız icap ediyorsa.
+
+
+

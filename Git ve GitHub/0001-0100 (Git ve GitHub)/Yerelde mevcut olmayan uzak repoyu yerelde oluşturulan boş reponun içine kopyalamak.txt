@@ -1,0 +1,21 @@
+git init
+
+
+
+git pull <uzak-reponun-adresi>
+
+
+
+git branch -M main
+
+
+
+git remote add origin <uzak-reponun-adresi>
+
+
+
+git push -u origin main
+
+
+
+
