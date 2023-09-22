@@ -1,0 +1,10 @@
+A specialized Map implementation for enum types.
+
+
+
+
+
+
+
+
+

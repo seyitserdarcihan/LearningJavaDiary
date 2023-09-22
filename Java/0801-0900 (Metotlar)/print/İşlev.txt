@@ -1,0 +1,10 @@
+Yeni satır olmayan bir çıktıyı çıktı ekranında göstermek için
+kullanılır.
+
+Bu metodu, şu metotla karşılaştır:
+println
+
+
+
+
+

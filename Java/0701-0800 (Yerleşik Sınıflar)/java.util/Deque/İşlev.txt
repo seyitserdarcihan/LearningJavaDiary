@@ -1,0 +1,9 @@
+An interface representing a double-ended queue.
+
+
+
+
+
+
+
+

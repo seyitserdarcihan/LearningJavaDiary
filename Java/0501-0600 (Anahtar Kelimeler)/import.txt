@@ -1,0 +1,34 @@
+'import' allows you to bring in classes and other elements from 
+external packages, making them accessible within your code.
+
+
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Örnek 1 ▬▬▬▬▬▬▬▬▬▬▬▬
+
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter an integer: ");
+        int num = scanner.nextInt();
+        
+        System.out.println("You entered: " + num);
+        
+        scanner.close();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

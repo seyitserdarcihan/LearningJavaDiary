@@ -1,0 +1,12 @@
+A hash map that uses weak references for keys.
+
+
+
+
+
+
+
+
+
+
+

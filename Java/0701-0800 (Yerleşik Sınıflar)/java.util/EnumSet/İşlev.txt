@@ -1,0 +1,7 @@
+A specialized Set implementation for enum types.
+
+
+
+
+
+

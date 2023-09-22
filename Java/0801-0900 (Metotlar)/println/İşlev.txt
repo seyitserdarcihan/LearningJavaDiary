@@ -1,0 +1,9 @@
+Bu metot kullanıldığında, çıktı ekranındaki ilgili çıktı kısmı
+yeni satırda görünmez, aynı satırda görünür.
+
+Bu metodu şu metotla karşılaştır:
+print
+
+
+
+

@@ -1,0 +1,7 @@
+Represents a set of bits or flags.
+
+
+
+
+
+

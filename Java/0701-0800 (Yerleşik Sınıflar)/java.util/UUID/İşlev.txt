@@ -1,0 +1,6 @@
+Represents a universally unique identifier.
+
+
+
+
+

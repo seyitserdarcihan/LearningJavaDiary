@@ -1,0 +1,9 @@
+A hash table-based implementation of the Map interface.
+
+
+
+
+
+
+
+

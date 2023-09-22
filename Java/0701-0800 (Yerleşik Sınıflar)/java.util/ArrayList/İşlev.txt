@@ -1,0 +1,11 @@
+A dynamic array-based implementation of the List interface.
+
+
+
+
+
+
+
+
+
+

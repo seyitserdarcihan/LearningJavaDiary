@@ -1,0 +1,4 @@
+'new' anahtar kelimesi kullanılarak yeni nesneler üretilir.
+
+
+

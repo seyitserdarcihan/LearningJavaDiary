@@ -1,0 +1,27 @@
+'java.util' is a package, and it contains various utility classes.
+
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬ Örnek 1 ▬▬▬▬▬▬▬▬▬▬▬▬
+Tarama sınıfını (scanner class) yazdığımız kodun
+içine aktarmak (import etmek) için kodumuzun yukarısına 
+şu kodu yazarız:
+
+import java.util.Scanner;
+
+Türkçesi şudur:
+"java.util paketinden Scanner sınıfını kodumun içine aktar"
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

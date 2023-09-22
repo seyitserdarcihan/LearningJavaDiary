@@ -1,0 +1,8 @@
+Represents a currency, including its symbol and ISO 4217 currency code.
+
+
+
+
+
+
+

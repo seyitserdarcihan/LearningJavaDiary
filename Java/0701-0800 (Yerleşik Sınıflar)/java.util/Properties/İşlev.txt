@@ -1,0 +1,9 @@
+Represents a persistent set of properties in a key-value pair format, often used for configuration.
+
+
+
+
+
+
+
+

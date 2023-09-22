@@ -1,0 +1,4 @@
+A legacy hash table implementation (use HashMap in new code).
+
+
+
