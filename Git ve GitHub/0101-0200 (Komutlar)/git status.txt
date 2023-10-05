@@ -1,0 +1,22 @@
+Bu komut kullanılarak bir bilgisayar klasörü için 
+oluşturulmuş bir Git yerel reposunun var olup olmadığı
+kontrol edilir. 
+
+Şöyle ki:
+
+► Bir klasörün içindeyken yukarıdaki adres çubuğuna
+cmd komutunu girin ve Enter'a basın.
+
+► Şimdi şu komutu girin ve Enter'a basın:
+git status 
+
+► Eğer o klasör için bir Git yerel reposu oluşturulmamışsa
+komut isteminde şu çıkar:
+fatal: not a git repository (or any of the parent directories): .git
+
+
+
+
+
+
+
